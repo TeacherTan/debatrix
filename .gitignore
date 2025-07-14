@@ -159,8 +159,9 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
-# VS Code
+# VS Code and Cursor
 .vscode/
+.cursor/
 
 # Misc
 /test
@@ -168,3 +169,6 @@ cython_debug/
 /preset/debate_art
 /preset/demo
 /preset/vives_debate
+
+# Ignore changes to preset/example/config files
+preset/example/config/
